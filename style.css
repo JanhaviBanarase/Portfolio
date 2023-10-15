@@ -39,25 +39,21 @@ nav a:hover{
 
 /*headings*/
 h1{
-    color:#66bfbf;
-    font-size:5.625rem;
+    color:#70cbcb;
+    font-size:6rem;
     margin:50px auto 0 auto;
     font-family:"Sacramento", cursive;
 }
 h2{
-    color:#66bfbf;
+    color:#80d8d8;
     font-family:"Montserrat", sans-serif;
     font-size:2.5rem;
-    font-weight:normal;
+    font-weight:bold;
     padding-bottom:10px;
 }
-
 h3,h4,h5,h6{
-    color:#11999e;
+    color:#11c7df;
     font-family:"Montserrat", sans-serif;
-}
-
-h5,h4{
     font-weight: 550;
 }
 
@@ -130,13 +126,44 @@ a:hover{
   .progress {
     width: 100%;
     background-color: #f0f0f0;
-    height: 15px;
+    height: 18px;
     border-radius: 5px;
     position: relative;
   }
   
   .progress-bar {
     background-color:#0d8185;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    transition: width 1s ease-in-out;
+  }
+
+  .progress-bar1{
+    background-color:#3c59cf;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    transition: width 1s ease-in-out;
+  }
+.progress-bar2{
+    background-color:#EC53B0;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    position: absolute;
+    transition: width 1s ease-in-out;
+  }
+  .progress-bar3{
+    background-color:#94DD4D;
     height: 100%;
     border-radius: 5px;
     text-align: center;
@@ -157,6 +184,12 @@ a:hover{
     row-gap:2rem;
     column-gap: 1rem;
 }
+
+.link{
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #11c7df;
+}
 .Platform{
    
         display:flex;
@@ -171,7 +204,17 @@ a:hover{
     font-weight:bold;
 }
 
-
+.hobby{
+    display:grid;
+    grid-template-columns:0.5fr 0.5fr;
+    grid-template-rows:repeat(1, 1fr);
+    width: 50%;
+    margin:50px auto 0 auto;
+    justify-content: center;
+    text-align: center;
+    row-gap:2rem;
+    column-gap: 2rem;
+}
 .copyright{
     color:#eaf6f6;
     font-size:0.75rem;
