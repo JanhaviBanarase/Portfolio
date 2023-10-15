@@ -303,19 +303,19 @@ a:hover{
 
    .skills {
         
-        width:60%;
+        width:70%;
     }
     
     .project{
         
-        width: 90%;
+        width: 98%;
         grid-template-columns:2fr 1fr;
         column-gap: 2px;
         text-align: justify;
         
     }
     .education{
-        width: 80%;
+        width: 90%;
     }
     .Platform{
        
