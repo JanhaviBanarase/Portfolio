@@ -39,21 +39,25 @@ nav a:hover{
 
 /*headings*/
 h1{
-    color:#70cbcb;
-    font-size:6rem;
+    color:#66bfbf;
+    font-size:5.625rem;
     margin:50px auto 0 auto;
     font-family:"Sacramento", cursive;
 }
 h2{
-    color:#80d8d8;
+    color:#66bfbf;
     font-family:"Montserrat", sans-serif;
     font-size:2.5rem;
-    font-weight:bold;
+    font-weight:normal;
     padding-bottom:10px;
 }
+
 h3,h4,h5,h6{
-    color:#11c7df;
+    color:#11999e;
     font-family:"Montserrat", sans-serif;
+}
+
+h5,h4{
     font-weight: 550;
 }
 
@@ -108,7 +112,6 @@ a:hover{
 /*skills*/
 .skills {
     display:grid;
-   /* grid-template-columns:0.5fr 1fr;*/
     grid-template-rows:repeat(1, 1fr);
     width:35%;
     margin:50px auto 0 auto;
@@ -117,21 +120,21 @@ a:hover{
 }
 .skill {
     margin-bottom: 20px;
-  }
+}
   
-  .skill-name {
+.skill-name {
     font-weight: bold;
-  }
+}
   
-  .progress {
+.progress {
     width: 100%;
     background-color: #f0f0f0;
     height: 18px;
     border-radius: 5px;
     position: relative;
-  }
+}
   
-  .progress-bar {
+.progress-bar {
     background-color:#0d8185;
     height: 100%;
     border-radius: 5px;
@@ -140,39 +143,8 @@ a:hover{
     color: #fff;
     position: absolute;
     transition: width 1s ease-in-out;
-  }
+}
 
-  .progress-bar1{
-    background-color:#3c59cf;
-    height: 100%;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 20px;
-    color: #fff;
-    position: absolute;
-    transition: width 1s ease-in-out;
-  }
-.progress-bar2{
-    background-color:#EC53B0;
-    height: 100%;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 20px;
-    color: #fff;
-    position: absolute;
-    transition: width 1s ease-in-out;
-  }
-  .progress-bar3{
-    background-color:#94DD4D;
-    height: 100%;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 20px;
-    color: #fff;
-    position: absolute;
-    transition: width 1s ease-in-out;
-  }
-  
 
 .project{
     display:grid;
@@ -188,7 +160,6 @@ a:hover{
 .link{
     font-size: 20px; 
     font-weight: bold; 
-    color: #11c7df;
 }
 .Platform{
    
@@ -200,7 +171,7 @@ a:hover{
     
 }
 .code{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight:bold;
 }
 
@@ -303,19 +274,19 @@ a:hover{
 
    .skills {
         
-        width:70%;
+        width:60%;
     }
     
     .project{
         
-        width: 98%;
+        width: 90%;
         grid-template-columns:2fr 1fr;
         column-gap: 2px;
         text-align: justify;
         
     }
     .education{
-        width: 90%;
+        width: 80%;
     }
     .Platform{
        
